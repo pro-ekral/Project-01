@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #3498db;
+}
+.header-logo img{
+    width: 220px;
+}
+.primary-menu{
+    background: #3498db;
+}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;  
+}
+.primary-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 73px;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+}
+.primary-menu ul li a:hover{
+    background-color: #2980b9;
+} 
+
+.banner{
+    background-image: url(./img/httpsi.ibb.copRvmT4qBanner.png.jpg);
+    padding: 260px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    background-color: rgba(0,0,0,.6);
+color: #fff;
+display: inline-block;
+padding: 10px 10px;
+font-size: 34px;
+border-radius: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.banner h2{
+    background-color: rgba(52, 152, 219,.6);
+color: #fff;
+max-width: 1000px;
+font-size: 35px;
+padding: 10px inherit;
+margin-top: 24px;
+border-radius: 5px;
+display: block;
+
+}
+.about{
+    background-color: #ecf0f1;
+}
+.service{
+    background-color: #f9f9f9;
+}
+img{
+    max-width: 100%;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer{
+    background: #2c3e50;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
